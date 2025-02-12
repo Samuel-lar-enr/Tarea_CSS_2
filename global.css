@@ -1,0 +1,38 @@
+html{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    color: grey ;
+    background-color:rgb(255, 230, 230);
+    margin: 1px;
+}
+
+
+ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+
+li{
+
+    display: flex;
+    flex-direction: row;
+ 
+
+
+}
+
+li::hover{
+
+
+
+
+
+}
