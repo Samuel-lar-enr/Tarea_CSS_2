@@ -17,22 +17,39 @@ ul{
     flex-wrap: wrap;
     flex-direction: column;
     list-style-type: none;
-
+    width: 200px;
+    gap: 5px;
 }
 
 li{
 
     display: flex;
     flex-direction: row;
+    text-align: left;
  
 
 
 }
 
-li::hover{
+a:hover{
+
+    background-color: rgb(241, 119, 82) ;
+    width: fit-content;
+
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    text-decoration: none;
+    color: purple;
+    width: 100%;
+   gap: 5px;
+}
 
 
-
+i{
+    font-size: 25px;
 
 
 }
